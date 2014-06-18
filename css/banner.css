@@ -1,0 +1,23 @@
+/* Banner
+   ========================================================================== */
+
+.banner {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	-ms-overflow-x: hidden;
+	position: relative;
+}
+
+/* Banner ≥ 768 (tablet)
+   ========================================================================== */
+
+@media (min-width: 768px) {
+	.banner-inset {
+		display: table;
+	}
+
+	.banner-inset > * {
+		display: table-cell;
+		vertical-align: top;
+	}
+}

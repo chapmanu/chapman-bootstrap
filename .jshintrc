@@ -1,0 +1,13 @@
+{
+	"boss": true,
+	"camelcase": true,
+	"curly": true,
+	"devel": true,
+	"eqeqeq": true,
+	"newcap": true,
+	"predef": ["Window", "Document", "HTMLCollection", "NodeList", "Element"],
+	"strict": false,
+	"sub": true,
+	"trailing": true,
+	"validthis": true
+}

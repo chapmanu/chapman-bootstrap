@@ -1,0 +1,44 @@
+/* Logo
+   ========================================================================== */
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.logo-href {
+	display: block;
+	height: 36px;
+	overflow: hidden;
+	position: relative;
+	width: 192px;
+}
+
+.logo-image {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.inset--lite .logo-href {
+	margin: 0 auto;
+}
+
+/* Logo ≥ 1024 (large tablet and desktop)
+   ====================================================== */
+
+@media (min-width: 1024px) {
+	.logo-href {
+		height: 40px;
+		width: 212px;
+	}
+}
+
+/* Logo ≥ 1152 (large desktop)
+   ====================================================== */
+
+@media (min-width: 1152px) {
+	.logo-href {
+		height: 48px;
+		width: 254px;
+	}
+}

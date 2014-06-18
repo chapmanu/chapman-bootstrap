@@ -1,0 +1,47 @@
+/* Link
+   ========================================================================== */
+
+a {
+	color: #A82439;
+}
+
+a:focus, a:hover {
+	color: #7D1829;
+}
+
+/* Link (alt)
+   ========================================================================== */
+
+a.alt::after {
+	content: "»";
+	padding-left: 0.25em;
+	transition: padding 100ms;
+}
+
+/* Link within Paragraph
+   ========================================================================== */
+
+p a {
+	position: relative;
+}
+
+p a {
+	color: #353430;
+}
+
+p a::after {
+	border-bottom: 1px dotted;
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+p a:hover {
+	color: #A82439;
+}
+
+p a:hover::after {
+	border-bottom-style: solid;
+}

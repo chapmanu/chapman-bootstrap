@@ -1,0 +1,38 @@
+<!-- Side navigation -->
+<nav id="sidenav" class="sidenav" role="navigation">
+	<ul class="sidenav-menu" data-focusin>
+		<!-- Each <li> tag will become a new navigation item -->
+		<li><a href="#1"><span>First item</span></a></li>
+		<li><a href="#2"><span>Second item</span></a></li>
+
+		<!-- Each <li class="is-parent"> tag will become a new navigation item with children -->
+		<li class="is-parent">
+			<a href="#3"><span>Third item which has children</span></a>
+			<ul>
+				<li>
+					<a href="#3-1"><span>This is the first child</span></a>
+				</li>
+				<li>
+					<a href="#3-2"><span>This is the second child</span></a>
+				</li>
+				<li>
+					<a href="#3-3"><span>And this is the last child</span></a>
+				</li>
+			</ul>
+		</li>
+
+		<li class="is-parent">
+			<a href="#4"><span>Fourth item which has children</span></a>
+			<ul>
+				<li>
+					<a href="#4-1"><span>This is the first child</span></a>
+				</li>
+				<li>
+					<a href="#4-2"><span>And this is the last child</span></a>
+				</li>
+			</ul>
+		</li>
+
+		<!-- Add more <li> tags here -->
+	</ul>
+</nav>
