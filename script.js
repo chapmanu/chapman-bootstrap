@@ -7,7 +7,7 @@ if (/MSIE [0-8]\b/.test(navigator.userAgent)) {
 			node = document.createElement(nodeName);
 		});
 
-		// document.location = '//chapman.edu/upgrade-browser.aspx';
+		// document.location = '//www.chapman.edu/upgrade-browser.aspx';
 	}
 } else {
 

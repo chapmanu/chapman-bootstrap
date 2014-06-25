@@ -7,9 +7,9 @@
 Copy and paste the following HTML tags into the `<head>` of your page.
 
 ```html
-<link href="//chapman.edu/_bootstrap/1.1.1" rel="theme">
-<link href="//chapman.edu/_bootstrap/style.css" rel="stylesheet">
-<script src="//chapman.edu/_bootstrap/script.js"></script>
+<link href="//www.chapman.edu/_bootstrap/1.1.1" rel="theme">
+<link href="//www.chapman.edu/_bootstrap/style.css" rel="stylesheet">
+<script src="//www.chapman.edu/_bootstrap/script.js"></script>
 ```
 
 Then, copy and paste the following HTML tags into the `<head>` of your page, but only if they are not already there.
