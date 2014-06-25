@@ -22,9 +22,9 @@ Then, copy and paste the following HTML tags into the `<head>` of your page, but
 
 Finally, click the link to the template below. Copy and paste its HTML into the `<body>` of your page.
 
-[Three-column layout with side navigation](template/3col-sidenav.html).
+[Two-column layout with side navigation](template/2col-sidenav.html).
 
-Congratulations! You should now see the Chapman Bootstrap theme. Follow the [instructions in the template](template/3col-sidenav.html#L94-L102) to replace the placeholder content with your own.
+Congratulations! You should now see the Chapman Bootstrap theme. Follow the [instructions in the template](template/2col-sidenav.html#L126-L134) to replace the placeholder content with your own.
 
 Do you learn better by watching? Here are the instructions in video format:
 
