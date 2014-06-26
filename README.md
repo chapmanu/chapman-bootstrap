@@ -20,9 +20,11 @@ Then, copy and paste the following HTML tags into the `<head>` of your page, but
 <meta name="viewport" content="width=device-width,initial-scale=1">
 ```
 
-Finally, click the link to the template below. Copy and paste its HTML into the `<body>` of your page.
+Finally, choose a two-column or three-column layout by clicking one of the links below. Copy and paste its HTML into the `<body>` of your page.
 
 [Two-column layout with side navigation](template/2col-sidenav.html).
+
+[Three-column layout with side navigation](template/3col-sidenav.html).
 
 Congratulations! You should now see the Chapman Bootstrap theme. Follow the [instructions in the template](template/2col-sidenav.html#L126-L134) to replace the placeholder content with your own.
 
