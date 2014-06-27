@@ -3,6 +3,7 @@
 
 a {
 	color: #A82439;
+	cursor: pointer;
 }
 
 a:focus, a:hover {
@@ -30,12 +31,15 @@ p a {
 }
 
 p a::after {
-	border-bottom: 1px dotted;
 	content: "";
 	display: block;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+
+p:not(.unlink) a::after {
+	border-bottom: 1px dotted;
 }
 
 p a:hover {
