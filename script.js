@@ -139,7 +139,7 @@ if (/MSIE [0-8]\b/.test(navigator.userAgent)) {
 	Element.prototype,
 	NodeList.prototype,
 	HTMLCollection.prototype,
-	(getComputedStyle(document.documentElement).cssText.match(/-(moz|webkit|ms)-/) || [])[1] || ''
+	([].slice.call(getComputedStyle(document.documentElement)).join().match(/-(moz|ms|webkit)-/) || [])[1] || ''
 );
 
 //
