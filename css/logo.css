@@ -13,6 +13,15 @@
 	width: 192px;
 }
 
+.law .logo-href {
+	overflow: visible;
+	height: auto;
+}
+
+.law .logo-href > img {
+	max-height: initial;
+}
+
 .logo-image {
 	height: 100%;
 	position: absolute;

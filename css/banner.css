@@ -8,6 +8,8 @@
 	position: relative;
 }
 
+
+
 /* Banner ≥ 768 (tablet)
    ========================================================================== */
 
@@ -19,5 +21,9 @@
 	.banner-inset > * {
 		display: table-cell;
 		vertical-align: top;
+	}
+
+	.law .banner-inset > * {
+		vertical-align: bottom;
 	}
 }
